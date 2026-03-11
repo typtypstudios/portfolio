@@ -11395,7 +11395,7 @@ p {
     transition: font-size 0.3s ease-in-out;
   }
   #mainNav .navbar-brand img {
-    height: 2rem;
+    height: 4rem;
     transition: height 0.3s ease-in-out;
   }
   #mainNav.navbar-shrink {
@@ -11408,7 +11408,7 @@ p {
   }
   #mainNav.navbar-shrink .navbar-brand svg,
 #mainNav.navbar-shrink .navbar-brand img {
-    height: 1.5rem;
+    height: 2.5rem;
   }
   #mainNav .navbar-nav .nav-item {
     margin-right: 1rem;
@@ -11422,7 +11422,7 @@ header.masthead {
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
-  background-image: url("../assets/img/header-bgAnim.gif");
+  background-image: url("../assets/img/maquinaEscribir.gif");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -11435,32 +11435,161 @@ header.masthead .masthead-subheading {
   margin-bottom: 25px;
   font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
-header.masthead .masthead-heading {
-  font-size: 3.25rem;
-  font-weight: 700;
-  line-height: 3.25rem;
-  margin-bottom: 2rem;
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-}
+    header.masthead .masthead-heading {
+        font-size: 3.25rem;
+        font-weight: 700;
+        line-height: 3.25rem;
+        margin-bottom: 2rem;
+        font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        color: #212529;
+    }
 
 @media (min-width: 768px) {
-  header.masthead {
-    padding-top: 17rem;
-    padding-bottom: 12.5rem;
-  }
-  header.masthead .masthead-subheading {
-    font-size: 2.25rem;
-    font-style: italic;
-    line-height: 2.25rem;
-    margin-bottom: 2rem;
-  }
-  header.masthead .masthead-heading {
-    font-size: 4.5rem;
-    font-weight: 700;
-    line-height: 4.5rem;
-    margin-bottom: 4rem;
-  }
+    header.masthead {
+        padding-top: 17rem;
+        padding-bottom: 12.5rem;
+    }
+
+        header.masthead .masthead-subheading {
+            font-size: 2.25rem;
+            font-style: italic;
+            line-height: 2.25rem;
+            margin-bottom: 2rem;
+            color: #212529;
+        }
+
+        header.masthead .masthead-heading {
+            font-size: 4.5rem;
+            font-weight: 700;
+            line-height: 4.5rem;
+            margin-bottom: 4rem;
+            color: #212529;
+        }
 }
+}
+
+#ourgame {
+    background-color: #fff;
+}
+
+#ourgame .ourgame-item {
+    max-width: 26rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+    #ourgame .ourgame-item .ourgame-link {
+        position: relative;
+        display: block;
+        margin: 0 auto;
+    }
+
+        #ourgame .ourgame-item .ourgame-link .ourgame-hover {
+            display: flex;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background: rgba(79, 104, 239, 0.9);
+            align-items: center;
+            justify-content: center;
+            opacity: 0;
+            transition: opacity ease-in-out 0.25s;
+        }
+
+        #ourgame .ourgame-item .ourgame-link .ourgame-hover .ourgame-hover-content {
+            font-size: 1.25rem;
+            color: white;
+        }
+
+        #ourgame .ourgame-item .ourgame-link:hover .ourgame-hover {
+            opacity: 1;
+        }
+
+        #ourgame .ourgame-item .ourgame-link .ourgame-hover2 .ourgame-hover-content {
+            font-size: 1.25rem;
+            color: white;
+        }
+
+        #ourgame .ourgame-item .ourgame-link:hover .ourgame-hover2 {
+            opacity: 1;
+        }
+
+        #ourgame .ourgame-item .ourgame-link .ourgame-hover3 .ourgame-hover-content {
+            font-size: 1.25rem;
+            color: white;
+        }
+
+        #ourgame .ourgame-item .ourgame-link:hover .ourgame-hover3 {
+            opacity: 1;
+        }
+
+    #ourgame .ourgame-item .ourgame-caption {
+        padding: 1.5rem;
+        text-align: center;
+        background-color: #fff;
+    }
+
+        #ourgame .ourgame-item .ourgame-caption .ourgame-caption-heading {
+            font-size: 1.3rem;
+            font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+            font-weight: 700;
+            margin-bottom: 0;
+        }
+
+        #ourgame .ourgame-item .ourgame-caption .ourgame-caption-subheading {
+            font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        }
+
+.ourgame-modal .modal-dialog {
+    margin: 1rem;
+    max-width: 100vw;
+}
+
+.ourgame-modal .modal-content {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    text-align: center;
+}
+
+    .ourgame-modal .modal-content h2, .ourgame-modal .modal-content .h2 {
+        font-size: 3rem;
+        line-height: 3rem;
+    }
+
+    .ourgame-modal .modal-content p.item-intro {
+        font-style: italic;
+        margin-bottom: 2rem;
+        font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    }
+
+    .ourgame-modal .modal-content p {
+        margin-bottom: 2rem;
+    }
+
+    .ourgame-modal .modal-content ul.list-inline {
+        margin-bottom: 2rem;
+    }
+
+    .ourgame-modal .modal-content img {
+        margin-bottom: 2rem;
+    }
+
+.ourgame-modal .close-modal {
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
+    width: 3rem;
+    height: 3rem;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+    .ourgame-modal .close-modal:hover {
+        opacity: 0.3;
+    }
+
+
+
 #portfolio .portfolio-item {
   max-width: 26rem;
   margin-left: auto;
