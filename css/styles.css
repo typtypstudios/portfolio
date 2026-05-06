@@ -11418,15 +11418,15 @@ p {
   }
 }
 header.masthead {
-  padding-top: 10.5rem;
-  padding-bottom: 6rem;
-  text-align: center;
-  color: #fff;
-  background-image: url("../assets/img/maquinaEscribir.gif");
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-position: center center;
-  background-size: cover;
+    padding-top: 10.5rem;
+    padding-bottom: 6rem;
+    text-align: center;
+    color: #fff;
+    background-image: url("../assets/img/capturasJuego/portadaSinBotonesCopia.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
 }
 header.masthead .masthead-subheading {
   font-size: 1.5rem;
@@ -11441,7 +11441,7 @@ header.masthead .masthead-subheading {
         line-height: 3.25rem;
         margin-bottom: 2rem;
         font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-        color: #212529;
+        color: #fff;
     }
 
 @media (min-width: 768px) {
@@ -11463,7 +11463,7 @@ header.masthead .masthead-subheading {
             font-weight: 700;
             line-height: 4.5rem;
             margin-bottom: 4rem;
-            color: #212529;
+            color: #fff;
         }
 }
 }
